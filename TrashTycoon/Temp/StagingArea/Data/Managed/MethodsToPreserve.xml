@@ -1,0 +1,15 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="NPC_Spawner">
+			<method name="AddNPC"/>
+			<method name="UpgradeNPCSpeed"/>
+		</type>
+		<type fullname="UI_Manager">
+			<method name="BuyNPC"/>
+			<method name="BuyNPC_Truck"/>
+			<method name="CloseBtn"/>
+			<method name="TurnOnCanvas"/>
+			<method name="UnlockHut"/>
+		</type>
+	</assembly>
+</linker>
